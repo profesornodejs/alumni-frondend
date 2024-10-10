@@ -1,11 +1,8 @@
-import { Title } from "./app/components/Title.js";
-import { course } from "./app/components/Course.js";
-
-import { getCourse } from "./app/helpers/courseApi.js";
-
+import { menu } from "./app/component/menu/menu.js"
+import { header } from "./app/component/header/header.js"
 
 export function App() {
 const d = document.getElementById("root")
-d.appendChild(Title())
-d.appendChild(course())
+d.appendChild(header())
+d.appendChild(menu())
 }
