@@ -1,6 +1,10 @@
 import {App} from "./App.js";
-import {locationHandle} from "./app/router/mainRouter.js"
+import { handleRouter } from "./app/router/handleRouter.js";
+
 
 document.addEventListener("DOMContentLoaded",App)
-window.addEventListener("hashchange",locationHandle)
+
+window.addEventListener("hashchange", handleRouter);
+
+
 
