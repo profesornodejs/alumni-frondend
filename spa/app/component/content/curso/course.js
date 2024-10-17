@@ -9,6 +9,7 @@ export function course() {
     const $content = document.createElement("div")
     $content.id = "content"
 
+    //simulacion API rest
     let courses = [
         {
             "title": "NodeJs introduccion",

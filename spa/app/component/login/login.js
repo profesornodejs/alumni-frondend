@@ -9,7 +9,7 @@ export function login() {
       <label for="pwd">Password:</label>
       <input type="password" id="pwd" name="pwd">
       <p>
-        <input type="submit" value="Enviar">
+       <input type="submit" value="Enviar"> 
       </p>
     </form>
     `
